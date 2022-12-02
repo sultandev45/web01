@@ -1,0 +1,134 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7px;
+    position:relative;
+    height: 95vh;
+    background:#b1b1b1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5% 0% 0% 26%;
+    width: 43%;
+    background-color: rgb(11, 11, 11);
+    height:60px;
+    box-shadow: 10px 50px 50px 700px inset #101010,5px 20px 20px 660px inset  #090808;
+    border-radius: 15px;
+}
+button{
+    box-sizing: border-box;
+    color: rgb(214, 237, 120);
+    font: 10px sans-serif;
+    background-color: #0a0a0a;
+    border-radius: 5px; 
+    border:2PX solid transparent;
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+    margin-top: 10px;
+    box-shadow: 40px 20px 60px  90px inset  #0f0e0e , -15px 25px 20px 70px inset #f5f6f2 ;
+}
+button:hover{
+    background-color: rgb(55, 56, 54);
+    border: 2px solid rgb(252, 250, 250);
+    color: rgb(250, 252, 252);
+    font-weight: bold;
+    
+    
+}
+
+#allbtn{background-color: #696e7600;
+   width: 1100px; 
+   padding: 10px 40px 20px 60px;
+   border-radius: 20px;
+   margin: 20px 20px 20px 80px;
+}
+.esc{
+    border-radius:20px 5px 5px 5px;
+}
+.del{
+    border-radius:5px 20px 5px 5px;
+}
+.lft-ctrl{
+    border-radius:5px 5px 5px 20px;
+}
+
+.div1{
+    padding: 5px 20px 5px 20px;
+}
+.adjustpaddig{
+    padding: 15px 24px 15px 22px;
+    
+}
+.bcspace{
+    padding: 15px 41px 15px 41px;
+}
+.tab{
+    padding: 15px 30px 15px 33px;
+}
+.capslock{
+    padding: 15px 30px 15px 30px;
+}
+.enter{
+    padding: 15px 50px 15px 50px;
+}
+.slash{
+    padding: 15px 45px 15px 45px;
+}
+
+.shift-left{
+    padding: 15px 50px 15px 50px;
+}
+.shift-right{
+    padding: 15px 70px 15px 70px;}
+.end{
+    padding: 15px 23px 15px 24px;
+}
+.alt{
+    padding: 15px 18px 15px 18px;
+}
+.space{
+    padding: 15px 130px 15px 125px;
+   
+}
+.sp-1{
+    position:relative ; top: 10px; right: 10px;
+}
+.sp-2{
+    position:relative ; bottom: 10px; right: 15px;
+}
+
+.up{
+    position:relative ; bottom: 12px; left: 0px;
+    padding: 3px 40px 3px 40px;
+
+}
+.dn{
+    position:relative ; top: 12px; right: 100px;
+    padding: 3px 40px 3px 40px;
+}
+
+.right{
+    position: relative;
+    right: 98px;
+    padding: 15px 22px 15px 22px;
+    border-radius:5px 5px 20px 5px;   
+}
+
+.console{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0% 0% 23%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 40px 20px 60px  900px inset  #101010 , -15px 25px 20px 70px  #000000 inset ;
+    height:60px;
+    border-radius: 20px;
+}
