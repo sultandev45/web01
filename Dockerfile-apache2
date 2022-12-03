@@ -1,0 +1,17 @@
+#Base Image
+FROM ubuntu
+#mantainer email
+MAINTAINER mubashersultan956gmail.com
+#Get update
+RUN apt-get update
+#Install apache2
+RUN apt-get -y install apache2 && apt-get -y install apache2-utils
+RUN apt-get clean
+#Copy sit server directory
+ADD ./Keyboard /var/www/html/
+# Expose the port for access
+EXPOSE 80/tcp
+#config server-name
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# Run the apache server
+CMD apachectl -D FOREGROUND
