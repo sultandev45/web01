@@ -1,8 +1,4 @@
-#FROM ubuntu:latest
-#MAINTAINER mubashersultan956gmail.com
-#RUN apt-get update
-#RUN apt-get -y install nginx
-#CMD [“echo”,”Image created”]
+
 # Pull the minimal Ubuntu image
 FROM ubuntu
 MAINTAINER mubashersultan956gmail.com
@@ -18,5 +14,3 @@ EXPOSE 80/tcp
 
 # Run the Nginx server
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
-#ADD ./Keyboard /usr/share/nginx/html
-#EXPOSE "80"
