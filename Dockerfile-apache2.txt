@@ -8,9 +8,6 @@ LABEL description="This Dockerfile installs apache2 server using base image ubun
 #mantainer email Add detail in image
 MAINTAINER Mubasher Sultan Mehmood < mubashersultanmehmoodgmail.com >
 
-#mantainer email
-MAINTAINER mubashersultanmehmoodgmail.com
-
 #Get update
 RUN apt-get update
 
