@@ -1,7 +1,14 @@
 
 # Pull the minimal Ubuntu image
 FROM ubuntu
-MAINTAINER mubashersultan956gmail.com
+
+#Add discription in label
+LABEL maintainer="sultandev45 <mubashersultanmehmood@gmail.com>"
+LABEL description="This Dockerfile installs nginx server using base image ubuntu and host wep-app."
+
+#mantainer email Add detail in image
+MAINTAINER Mubasher Sultan Mehmood < mubashersultanmehmoodgmail.com >
+
 # Install Nginx
 RUN apt-get -y update && apt-get -y install nginx
 
